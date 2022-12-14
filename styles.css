@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://i.pinimg.com/originals/5f/e6/2d/5fe62d64fee91c7edb0cce32ff5dd63c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: #ffffff70;
+    padding: 1.5rem;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #311d1a;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 0.063rem solid #311d1a;
+    background-color: transparent;
+    outline: none;
+    min-width: 11.25rem;
+    font-size: 1rem;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 0.813rem;
+    margin: 5% 0;
+}
+
+.label-float input:focus{
+    border-bottom: 0.126rem solid #311d1a;
+}
+
+.label-float label{
+    color: #311d1a;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label{
+    font-size: 0.813px;
+    color: #311d1a;
+}
+
+button{
+    background-color: transparent;
+    border-color: #311d1a;
+    color: #311d1a;
+    padding: 0.438rem;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 12pt;
+    margin: 0.75rem 0;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-out;
+}
+
+button:hover{
+    background-color: #311d1a;
+    color: #fff;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+hr{
+    margin: 5% 0;
+    width: 100%;
+}
+
+p{
+    color:#311d1a;
+    font-size: 14pt;
+}
+
+a{
+    color:#694039;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-out;
+}
+
+a:hover{
+    color:#311d1a;
+}
