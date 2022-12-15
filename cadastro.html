@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
     
     <link rel=stylesheet href="styles.css">
 </head>
 <body>
     <div class="container">
         <div class="card">
-            <h1>Entrar</h1>
+            <h1>Cadastrar</h1>
+
+            <div class="label-float nome">
+                <input type="text" id="nome" placeholder="">
+                <label for="nome" id="nome_label">Nome</label>
+            </div>
 
             <div class="label-float user">
                 <input type="text" id="usuario" placeholder="">
@@ -23,8 +28,13 @@
                 <label for="senha" id="senha_label">Senha</label>
             </div>
 
+            <div class="label-float password_confirm">
+                <input type="password" id="confirmar_senha" placeholder="">
+                <label for="senha" id="confirmar_senha_label">Confirmar senha</label>
+            </div>
+
             <div class="justify-center">
-                <button>Entrar</button>
+                <button>Cadastrar</button>
             </div>
 
             <div class="justify-center">
@@ -32,8 +42,8 @@
             </div>
 
             <p>
-                Não têm uma conta?
-                <a href="cadastro.html">Cadastra-se</a>
+                Já possuí uma conta?
+                <a href="index.html">Logar</a>
             </p>
         </div>
     </div>

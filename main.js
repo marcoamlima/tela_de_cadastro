@@ -16,4 +16,22 @@ $(document).ready(function() {
             $("#senha_label").css("margin-top", "0.813rem");
         }
     });
+
+    $("#confirmar_senha").keyup(function(){
+        let senha = $('#confirmar_senha').val();
+        if(senha.length > 1){
+            $("#confirmar_senha_label").css("margin-top", "0");
+        }else{
+            $("#confirmar_senha_label").css("margin-top", "0.813rem");
+        }
+    });
+
+    $("#nome").keyup(function(){
+        let nome = $('#nome').val();
+        if(nome.length > 1){
+            $("#nome_label").css("margin-top", "0");
+        }else{
+            $("#nome_label").css("margin-top", "0.813rem");
+        }
+    });
 });
