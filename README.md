@@ -9,6 +9,8 @@ Tecnologias:
   <img src="tela_login.gif">
 </div>
 
+<br>
+
 #Tela de cadastro
 <div align="center">
   <img src="tela_cadastro.gif">
