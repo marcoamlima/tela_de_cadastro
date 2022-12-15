@@ -1,7 +1,7 @@
 # Tela de cadastro e login.
 
 Tecnologias:
--> HTML, CSS e JavaScript.
+- HTML, CSS e JavaScript.
 
 
 #Tela de login
